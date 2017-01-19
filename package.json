@@ -1,5 +1,5 @@
 {
-  "name": "mapeandoes-typings",
+  "name": "@prodest/mapeandoes-typings",
   "version": "1.0.0",
   "description": "typings do projeto mapeando do governo do estado do es",
   "main": "index.ts",
