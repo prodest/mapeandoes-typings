@@ -1,0 +1,14 @@
+{
+  "name": "mapeandoes-typings",
+  "version": "1.0.0",
+  "description": "typings do projeto mapeando do governo do estado do es",
+  "main": "index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^2.1.5"
+  },
+  "devDependencies": {
+    "tslint-config-standard": "^3.0.0",
+    "tslint-eslint-rules": "^3.2.3"
+  }
+}
