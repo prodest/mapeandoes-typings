@@ -1,6 +1,6 @@
 import { IBaseModel } from './ibase-model'
 import { IUser } from './iuser'
-export interface ICategories extends IBaseModel {
+export interface ICategory extends IBaseModel {
   name: string,
   travelMode?: ETravelMode,
   issue: boolean,
