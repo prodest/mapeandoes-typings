@@ -1,1 +1,6 @@
 export {IUser} from './iuser'
+export {ICategory} from './icategory'
+export {IDistrict} from './idistrict'
+export {ILocation,ILocationGoogle} from './ilocation'
+export {ITheme} from './itheme'
+export {IDemand} from './idemand'
