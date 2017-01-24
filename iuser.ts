@@ -1,9 +1,4 @@
-import {IBaseModel} from './ibase-model'
-export interface IUser extends IBaseModel {
-  name: string
-  email: string
-  username: string
-  password: string
-  newPassword?: string
-  isAdmin: boolean
+import {Interfaces} from 'js-data-dao'
+export interface IUser extends Interfaces.IBaseUser {
+  externalId: string
 }

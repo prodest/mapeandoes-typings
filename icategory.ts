@@ -1,6 +1,6 @@
-import { IBaseModel } from './ibase-model'
+import { Interfaces } from 'js-data-dao'
 import { IUser } from './iuser'
-export interface ICategory extends IBaseModel {
+export interface ICategory extends Interfaces.IBaseModel {
   name: string,
   travelMode?: ETravelMode,
   issue: boolean,

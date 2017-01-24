@@ -1,11 +1,11 @@
-import { IBaseModel } from './ibase-model'
+import { Interfaces } from 'js-data-dao'
 import { ILocation } from './ilocation'
 import { IUser } from './iuser'
 import { ICategory } from './icategory'
 import { ITheme } from './itheme'
 import { IDistrict } from './idistrict'
 import { ISource } from './isource'
-export interface IDemand extends IBaseModel {
+export interface IDemand extends Interfaces.IBaseModel {
   title: string,
   description: string,
   externalUserId: string,
