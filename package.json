@@ -1,6 +1,6 @@
 {
   "name": "@prodest/mapeandoes-typings",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "main": "index.js",
   "typings": "lib/index.ts",
   "description": "typings do projeto mapeando do governo do estado do es",
