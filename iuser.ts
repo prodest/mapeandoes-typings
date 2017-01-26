@@ -1,4 +1,5 @@
-export interface IUser {
+import {IBaseModel} from './ibase-model'
+export interface IUser extends IBaseModel {
   externalId: string
   name: string
   companyAlias: string
@@ -8,4 +9,3 @@ export interface IUser {
   newPassword?: string
   isAdmin: boolean
 }
-
