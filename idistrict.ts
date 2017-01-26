@@ -1,6 +1,6 @@
-import { Interfaces } from 'js-data-dao'
+import {IBaseModel} from './ibase-model'
 import {ILocation} from './ilocation'
-export interface IDistrict extends Interfaces.IBaseModel {
+export interface IDistrict extends IBaseModel {
   name: string
   location: ILocation
 }

@@ -1,4 +1,4 @@
-import { Interfaces } from 'js-data-dao'
-export interface ISource extends Interfaces.IBaseModel {
+import {IBaseModel} from './ibase-model'
+export interface ISource extends IBaseModel {
   name: string
 }

@@ -1,4 +1,11 @@
-import {Interfaces} from 'js-data-dao'
-export interface IUser extends Interfaces.IBaseUser {
+export interface IUser {
   externalId: string
+  name: string
+  companyAlias: string
+  email: string
+  username: string
+  password: string
+  newPassword?: string
+  isAdmin: boolean
 }
+
