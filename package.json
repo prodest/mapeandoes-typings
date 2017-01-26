@@ -1,6 +1,6 @@
 {
   "name": "@prodest/mapeandoes-typings",
-  "version": "1.0.1",
+  "version": "1.0.12",
   "description": "typings do projeto mapeando do governo do estado do es",
   "main": "index.ts",
   "license": "MIT",
