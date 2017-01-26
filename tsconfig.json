@@ -1,13 +1,10 @@
 {
     "typescript.tsdk": "node_modules/typescript/lib",
     "declaration": true,
-    "files": [
-        "index.ts"
-    ],
     "compilerOptions": {
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "target": "es5",
+        "target": "es6",
         "module": "commonjs",
         "sourceMap": true,
         "noImplicitAny": true,
