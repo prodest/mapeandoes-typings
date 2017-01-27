@@ -17,6 +17,7 @@ export interface IDemand extends IBaseModel {
   themes: ITheme[],
   source: ISource
   sourceId: string,
+  approved: boolean,
   pins: IPin[]
 }
 
