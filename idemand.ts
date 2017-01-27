@@ -8,7 +8,10 @@ import { IBaseModel } from './ibase-model'
 export interface IDemand extends IBaseModel {
   title: string,
   description: string,
-  externalUserId: string,
+  externalUser: {
+    id: string,
+    name: string
+  },
   categoryId: string,
   category: ICategory,
   userId: string
@@ -17,6 +20,7 @@ export interface IDemand extends IBaseModel {
   themes: ITheme[],
   source: ISource
   sourceId: string,
+  approved: boolean,
   pins: IPin[]
 }
 
