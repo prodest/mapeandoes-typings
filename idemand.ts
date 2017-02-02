@@ -10,7 +10,8 @@ export interface IDemand extends IBaseModel {
   description: string,
   externalUser: {
     id: string,
-    name: string
+    name: string,
+    email: string
   },
   categoryId: string,
   category: ICategory,
